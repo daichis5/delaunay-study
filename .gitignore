@@ -1,0 +1,28 @@
+# Implementation brief (local only).
+# Distilled into docs/ and CLAUDE.md as work progresses, then discarded.
+/objective.md
+
+# Rust
+/target/
+**/*.rs.bk
+
+# Generated output
+/outputs/*
+!/outputs/.gitkeep
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+
+# Jupyter notebooks: output cells and metadata produce huge diffs.
+# Verification code belongs in python/*.py instead.
+*.ipynb
+.ipynb_checkpoints/
+
+# Editors and OS
+.DS_Store
+.vscode/
+.idea/
