@@ -12,6 +12,10 @@ publish = false
 name = "delaunay_study"
 path = "src/lib.rs"
 
+[[bin]]
+name = "delaunay"
+path = "src/bin/delaunay.rs"
+
 [dependencies]
 clap = { version = "4", features = ["derive"] }
 csv = "1"
