@@ -1,0 +1,21 @@
+[package]
+name = "delaunay-study"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.92"
+license = "MIT OR Apache-2.0"
+description = "Educational from-scratch implementation of Delaunay triangulation"
+repository = "https://github.com/daichis5/delaunay-study"
+publish = false
+
+[lib]
+name = "delaunay_study"
+path = "src/lib.rs"
+
+[[bin]]
+name = "delaunay"
+path = "src/bin/delaunay.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+csv = "1"
